@@ -1,0 +1,105 @@
+ignore
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+pip-debug.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+junit.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+logs/
+log/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ML specific
+*.h5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.weights
+*.bin
+*.tflite
+model_weights/
+saved_models/
+pretrained/
+checkpoints/
+
+# Local development configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+config.local.yaml
+config.dev.yaml
+secrets.yaml
+
+# Model context protocol specific
+.mcp/
+.mcp_cache/
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+*.js.map
