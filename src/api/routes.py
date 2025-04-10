@@ -47,7 +47,7 @@ async def process_chat():
         if not data or 'prompt' not in data:
             return jsonify({
                 "status": "error",
-                "error": "Missing 'message' in request body"
+                "error": "Missing 'prompt' in request body"
             }), 400
             
         message = data['prompt']
