@@ -56,7 +56,7 @@ class MessageProcessor:
                 max_tokens=MAX_TOKENS,
                 messages=messages,
                 tools=available_tools,
-                stream=True,
+                stream=False,
             )
             
             # Process the response content
